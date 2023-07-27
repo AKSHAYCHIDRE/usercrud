@@ -36,7 +36,7 @@ function Read() {
     <>
         <div className="form-check form-switch">
             <input class="form-check-input" type="checkbox" role="switch" onClick={()=> {
-              setTableDark(tableDark == 'table-dark' ? '' : 'table-dark')
+              setTableDark(tableDark === 'table-dark' ? '' : 'table-dark')
             }} />
         </div>
       <div className="d-flex justify-content-between align-items-center mb-3">
